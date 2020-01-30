@@ -1,4 +1,4 @@
-4cqximport React from 'react'
+import React from 'react'
 function FormComponent (props){
     return(
         <main>
@@ -24,7 +24,7 @@ function FormComponent (props){
       <br/>
       Is vegan : {props.diet.isVegan? "yes": "no"}
       <br/>
-      Is Lactose Intoreant : {props.diet.isLactosed5gfvt890/\;i?/+ "yes": "no"}
+      Is Lactose Intoreant : {props.diet.isLactose? "yes": "no"}
       </h1>
         </main>
         )
